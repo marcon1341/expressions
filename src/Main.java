@@ -6,12 +6,15 @@ public class Main {
         char c = 'A'; // create variable of type and assign value A
         int quantity = 12; // an even dozen
         double price = 1.23; // double precision floating point decimal
+        byte b= (byte)255;
+        int sum = 6+7; // + addition opp
 
         // non primitive (complex/ object /collection)
         String name = "Marcon";
         String last = "sol";
         Integer age = 25; // wrapped primitive is called a booked primitive
         Double weight = 140.22;
+
 
         //expression are like equation that calculate a result to use
         double total = quantity * price; //cal total multiple qty time price
@@ -27,10 +30,12 @@ public class Main {
         double pi = 3.1415926535;
         System.out.println(pi);
 
-        double cost_in_pennies = 100;
-        double total_cost = cost_in_pennies / 3;
+        int cost_in_pennies = 33;
+        double total_cost = (double)cost_in_pennies / 3;
         System.out.println(total_cost);
 
+        }
 
-    }
+
+
 }
